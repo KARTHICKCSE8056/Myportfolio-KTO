@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IOT project</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
 </head>
 <body>
     <div class="header">
         <ul>
+            <li><a href="https://github.com/KARTHICKCSE8056/RFID_BASED_LOGIN_SYSTEM.git">View source</a></li>
             <li><a href="../../index.html">Home</a></li>
-            <li><a href="#">View source</a></li>
         </ul>
     </div>
     <div class="container">
         <div class="content_part">
-            <h1 class="main_heading">RFID BASED ADDENDANCE SYSTEM</h1>
-            <P class="content">The Tap Card RFID Attendance Project focuses on developing an efficient, automated system for
+            <h1 class="main_heading" data-aos="fade-right" data-aos-delay="250">RFID BASED ADDENDANCE SYSTEM</h1>
+            <P class="content" data-aos="fade-right" data-aos-delay="250">The Tap Card RFID Attendance Project focuses on developing an efficient, automated system for
                 tracking attendance using RFID (Radio Frequency Identification) technology. This project aims to replace
                 traditional manual methods with a more streamlined, accurate, and contactless approach, where individuals
                 can simply tap an RFID-enabled card on a reader to mark their attendance.RFID technology offers numerous
@@ -25,18 +30,27 @@
                 security, and improves the overall user experience for both employees and administrators.
                 </P>
 
-            <div class="button_bar">
-                <button class="btn1 buttons">View appstract</button>
-                <button class="btn2 buttons">GIT HUB</button>
+            <div class="button_bar"data-aos="fade-right" data-aos-delay="300">
+                <!-- <button class="btn1 buttons" onclick="">View appstract</button>
+                <button class="btn2 buttons">GIT HUB</button> -->
+                <a href="pdf/RFIDPROJECT.pdf" class="buttons">View appstract</a>
+                <a href="https://github.com/KARTHICKCSE8056/RFID_BASED_LOGIN_SYSTEM.git" class="buttons">GIT HUB</a>
             </div>
 
         </div>
 
-        <div class="image_part">
+        <div class="image_part"data-aos="fade-down" data-aos-delay="250">
             <img src="images/project1.jpg">
         </div>
 
 
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
 </body>
 </html>
